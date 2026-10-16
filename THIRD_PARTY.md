@@ -7,7 +7,7 @@
 |-----------|----------------------------------------------------|----------|---------------|------------|
 | libreyolo | https://github.com/LibreYOLO/libreyolo             | 89efbe87 | v1.6.0+2      | MIT        |
 | yolox     | https://github.com/Megvii-BaseDetection/YOLOX      | 6ddff48  | 0.3.0+38      | Apache-2.0 |
-| rf-detr   | https://github.com/roboflow/rf-detr                | e3fc2879 | 1.10.1        | Apache-2.0 |
+| rf-detr   | https://github.com/roboflow/rf-detr                | 7433d591 | 1.11.2        | Apache-2.0 |
 
 ## Used by
 
