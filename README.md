@@ -42,3 +42,8 @@ pip install -e third_party/vision-third-party/libreyolo
 
 [LICENSE](LICENSE)는 이 저장소가 직접 작성한 파일(README, 스크립트 등)에만 적용된다.
 각 submodule은 원본 저장소의 라이선스를 따른다.
+
+## 추적 브랜치
+
+`libreyolo`는 `.gitmodules`에 `branch = release`로 지정돼 있다.
+최신 release로 올리려면 `git submodule update --remote libreyolo` 후 커밋한다.

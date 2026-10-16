@@ -1,6 +1,7 @@
 [submodule "libreyolo"]
 	path = libreyolo
 	url = https://github.com/LibreYOLO/libreyolo.git
+	branch = release
 [submodule "yolox"]
 	path = yolox
 	url = https://github.com/Megvii-BaseDetection/YOLOX.git
