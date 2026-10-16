@@ -1,0 +1,9 @@
+[submodule "libreyolo"]
+	path = libreyolo
+	url = https://github.com/LibreYOLO/libreyolo.git
+[submodule "yolox"]
+	path = yolox
+	url = https://github.com/Megvii-BaseDetection/YOLOX.git
+[submodule "rf-detr"]
+	path = rf-detr
+	url = https://github.com/roboflow/rf-detr.git
