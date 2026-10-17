@@ -9,3 +9,6 @@
 [submodule "rf-detr"]
 	path = rf-detr
 	url = https://github.com/roboflow/rf-detr.git
+[submodule "mmdetection"]
+	path = mmdetection
+	url = https://github.com/open-mmlab/mmdetection.git

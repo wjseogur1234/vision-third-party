@@ -8,6 +8,7 @@
 | `libreyolo/` | [LibreYOLO/libreyolo](https://github.com/LibreYOLO/libreyolo)            |
 | `yolox/`     | [Megvii-BaseDetection/YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) |
 | `rf-detr/`   | [roboflow/rf-detr](https://github.com/roboflow/rf-detr)                  |
+| `mmdetection/` | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) |
 
 고정 커밋·라이선스·사용처는 [THIRD_PARTY.md](THIRD_PARTY.md).
 
