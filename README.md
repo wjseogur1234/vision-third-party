@@ -45,6 +45,7 @@ pip install -e third_party/vision-third-party/libreyolo
 각 submodule은 원본 저장소의 라이선스를 따른다.
 
 라이브러리·모델 가중치 추가 및 갱신 시 [license_policy.yaml](license_policy.yaml)을 적용한다.
+코드·가중치·데이터별 검토 방법과 참고 근거는 [LICENSE_POLICY.md](LICENSE_POLICY.md)에 정리한다.
 `review_required` 라이선스는 검토 후 도입하고, `restricted` 라이선스는 도입을 제한한다.
 목록에 없는 라이선스는 별도 검토한다.
 상업적 사용과 비공개 제품 배포 지원 여부를 확인하고, 모델 가중치의 라이선스를 별도로 검증하며,

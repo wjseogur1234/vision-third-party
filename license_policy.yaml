@@ -1,14 +1,30 @@
 license_policy:
+  # Classification is an intake policy, not proof that an artifact is approved.
+  default: review_required
   preferred:
     - Apache-2.0
     - MIT
     - BSD-2-Clause
     - BSD-3-Clause
+    - BSL-1.0 # Boost Software License; not Business Source License (BUSL).
+    - ISC
+    - Zlib
+    - Unlicense
+    - WTFPL
+    # Public-domain dedication for databases; verify coverage of other assets separately.
+    - PDDL-1.0
 
   review_required:
+    # Copyleft: review source disclosure obligations for the intended distribution.
+    # https://interoperable-europe.ec.europa.eu/licence/european-union-public-licence-version-11-eupl
+    - EUPL-1.1
     - MPL-2.0
     - LGPL-2.1
     - LGPL-3.0
+    # Linguistic resources license; verify text rather than assuming "LGPL-LR" is an alias.
+    - LGPLLR
+    - EPL-1.0
+    - EPL-2.0
 
   restricted:
     - GPL-2.0
@@ -20,3 +36,52 @@ license_policy:
     - proprietary_distribution_supported
     - model_weights_license_verified
     - third_party_notices_preserved
+    - dataset_license_verified
+    - license_scope_and_version_recorded
+    - usage_and_redistribution_restrictions_verified
+
+  model_weights:
+    default: review_required
+    # Family names are discovery hints, not SPDX identifiers or approvals.
+    review_families:
+      - LLaMA
+      - Gemma
+      - OpenRAIL
+      - DeepFloyd
+    required_evidence:
+      - source_url
+      - model_version_and_revision
+      - weights_license_text_and_url
+      - commercial_use_and_proprietary_distribution_assessment
+      - acceptable_use_and_redistribution_conditions
+      - attribution_and_notice_requirements
+      - review_result
+
+  datasets:
+    default: review_required
+    # These candidates still require verification of rights and license scope.
+    preferred:
+      - CC0-1.0
+      - PDDL-1.0
+      - CC-BY-2.0
+      - CC-BY-2.5
+      - CC-BY-3.0
+      - CC-BY-4.0
+      - ODC-By-1.0
+      - CDLA-Permissive-1.0
+      - CDLA-Permissive-2.0
+    review_required:
+      - CC-BY-SA-3.0
+      - CC-BY-SA-4.0
+      - CC-BY-ND-4.0
+      - ODbL-1.0
+      - CDLA-Sharing-1.0
+    restricted:
+      - CC-BY-NC-2.0
+      - CC-BY-NC-3.0
+      - CC-BY-NC-4.0
+      - CC-BY-NC-ND-3.0
+      - CC-BY-NC-ND-4.0
+      - CC-BY-NC-SA-2.0
+      - CC-BY-NC-SA-3.0
+      - CC-BY-NC-SA-4.0
