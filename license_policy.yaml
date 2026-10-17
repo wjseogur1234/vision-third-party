@@ -1,0 +1,22 @@
+license_policy:
+  preferred:
+    - Apache-2.0
+    - MIT
+    - BSD-2-Clause
+    - BSD-3-Clause
+
+  review_required:
+    - MPL-2.0
+    - LGPL-2.1
+    - LGPL-3.0
+
+  restricted:
+    - GPL-2.0
+    - GPL-3.0
+    - AGPL-3.0
+
+  requirements:
+    - commercial_use_allowed
+    - proprietary_distribution_supported
+    - model_weights_license_verified
+    - third_party_notices_preserved

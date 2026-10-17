@@ -44,6 +44,12 @@ pip install -e third_party/vision-third-party/libreyolo
 [LICENSE](LICENSE)는 이 저장소가 직접 작성한 파일(README, 스크립트 등)에만 적용된다.
 각 submodule은 원본 저장소의 라이선스를 따른다.
 
+라이브러리·모델 가중치 추가 및 갱신 시 [license_policy.yaml](license_policy.yaml)을 적용한다.
+`review_required` 라이선스는 검토 후 도입하고, `restricted` 라이선스는 도입을 제한한다.
+목록에 없는 라이선스는 별도 검토한다.
+상업적 사용과 비공개 제품 배포 지원 여부를 확인하고, 모델 가중치의 라이선스를 별도로 검증하며,
+원본 라이선스와 제3자 고지문을 보존한다.
+
 ## 추적 브랜치
 
 | submodule | 추적 브랜치 |
