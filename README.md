@@ -26,6 +26,8 @@ git clone --recursive https://github.com/wjseogur1234/vision-third-party.git
 
 ## 사용
 
+라벨링 포맷과 프로젝트별 학습 데이터 연결은 [데이터셋 구성 가이드](docs/dataset-guide.md)를 참고한다.
+
 라이브러리는 각 프로젝트 환경에 editable로 설치한다.
 
 ```bash
